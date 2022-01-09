@@ -1,0 +1,64 @@
+Enter the number of items.The number of your item must not more than  3.
+3
+Enter the price of first item
+150
+Enter the quantity of first item
+2
+
+Enter the price of second item
+50
+Enter the quantity of second item
+3
+
+Enter the price of third item
+30
+Enter the quantity of third item
+1
+
+The number of item: 3
+The price of first item is: RM150.0
+The quantity of first item is: 2
+
+The price of second item is: RM50.0
+The quantity of second item is: 3
+
+The price of third item is: RM30.0
+The quantity of third item is: 1
+
+Total price: RM480.0
+Discount received: RM96.0
+Price to be paid: RM384.0
+
+
+
+
+Enter the number of items.The number of your item must not more than  3.
+3
+Enter the price of first item
+60
+Enter the quantity of first item
+1
+
+Enter the price of second item
+6
+Enter the quantity of second item
+1
+
+Enter the price of third item
+4
+Enter the quantity of third item
+1
+
+The number of item: 3
+The price of first item is: RM60.0
+The quantity of first item is: 1
+
+The price of second item is: RM6.0
+The quantity of second item is: 1
+
+The price of third item is: RM4.0
+The quantity of third item is: 1
+
+Total price: RM70.0
+Discount received: RM7.0
+Price to be paid: RM63.0
