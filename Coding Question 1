@@ -1,0 +1,66 @@
+package Test1;
+import java.util.Scanner;
+public class LabTest1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int numitem,quantity1, quantity2,quantity3;
+		double price1,price2, price3,totalprice,discount,price;
+		
+		Scanner sc =new Scanner(System.in);
+		
+		System.out.println("Enter the number of items.The number of your item must not more than  3.");
+		numitem=sc.nextInt();
+		System.out.println("Enter the price of first item");
+		price1= sc.nextDouble();
+		System.out.println("Enter the quantity of first item");
+		quantity1= sc.nextInt();
+		System.out.println();
+		System.out.println("Enter the price of second item");
+		price2= sc.nextDouble();
+		System.out.println("Enter the quantity of second item");
+		quantity2= sc.nextInt();
+		System.out.println();
+		System.out.println("Enter the price of third item");
+		price3= sc.nextDouble();
+		System.out.println("Enter the quantity of third item");
+		quantity3= sc.nextInt();
+		System.out.println();
+
+		
+		System.out.println("The number of item: "+ numitem);
+		System.out.println("The price of first item is: RM"+price1);
+		System.out.println("The quantity of first item is: "+quantity1);
+		System.out.println();
+		
+		System.out.println("The price of second item is: RM"+price2);
+		System.out.println("The quantity of second item is: "+quantity2);
+		System.out.println();
+		
+		System.out.println("The price of third item is: RM"+price3);
+		System.out.println("The quantity of third item is: "+quantity3);
+		
+		totalprice= (price1*quantity1)+ (price2*quantity2)+ (price3*quantity3);
+		System.out.println();
+
+		if(totalprice>100.00) {
+			discount=(0.2*totalprice);
+			price= totalprice - discount;
+			System.out.println("Total price: RM"+totalprice);
+			System.out.println("Discount received: RM"+ discount);
+			System.out.println("Price to be paid: RM"+price);
+		}
+		
+		else if(totalprice<100.00){
+			discount=(0.1*totalprice);
+			price= totalprice - discount;
+			System.out.println("Total price: RM"+totalprice);
+			System.out.println("Discount received: RM"+ discount);
+			System.out.println("Price to be paid: RM"+price);
+			
+		}	
+
+	}
+
+}
